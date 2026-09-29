@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: lightgray;
+    color: navy;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 34px;
+}
+
+.header p {
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 22px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: navy;
+    border-bottom: 2px solid navy;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 11px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    padding: 11px 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
+
+#message {
+    margin-top: 15px;
+    color: red;
+    font-weight: bold;
+}
+
+#subjectList {
+    margin-top: 20px;
+}
+
+.subject {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: whitesmoke;
+    padding: 10px 14px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.subject button {
+    padding: 4px 8px;
+    background-color: darkred;
+    font-size: 12px;
+}
+
+.requirement {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-bottom: 1px solid lightgray;
+}
+
+.actions {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.generate {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.clear {
+    background-color: gray;
+}
+
+.empty {
+    text-align: center;
+    color: gray;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: navy;
+    color: white;
+    padding: 12px 8px;
+}
+
+td {
+    border: 1px solid lightgray;
+    padding: 14px 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+@media (max-width: 800px) {
+
+    .input-section {
+        flex-direction: column;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th,
+    td {
+        padding: 8px 4px;
+    }
+}
